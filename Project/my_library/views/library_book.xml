@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <data>
+      <record id="library_book_form_view" model="ir.ui.view">
+         <field name="name">library.book.form.view</field>
+         <field name="model">my.library</field>
+         <field name="arch" type="xml">
+            <form>
+               <sheet>
+                  <group>
+                     <group>
+                        <field name="name"/>
+                        <field name="short_name"/>
+                        <field name="date_release"/>
+                        <field name="notes"/>
+                        <field name="state"/>
+                     </group>
+                     <group>
+                        <field name="description"/>
+                        <field name="cover"/>
+                        <field name="out_of_print"/>
+                        <field name="date_updated"/>
+                        <field name="pages"/>
+                     </group>
+                     <group>
+                        <field name="reader_rating"/>
+                        <field name="currency_id"/>
+                        <field name="retail_price"/>
+                        <field name="author_ids"/>
+                     </group>
+                  </group>
+               </sheet>
+            </form>
+         </field>
+      </record>
+      <record id="action_my_library" model="ir.actions.act_window">
+         <field name="name">My library</field>
+         <field name="type">ir.actions.act_window</field>
+         <field name="res_model">my.library</field>
+         <!-- <field name="view_type">form</field> -->         <!-- Odoo 13 has removed this field -->
+         <field name="view_ids" eval="[(5, 0, 0),
+                (0, 0, {'view_mode': 'form', 'view_id': ref('my_library.library_book_form_view')})]" />
+      </record>
+      <menuitem id="menu_super_pet"
+            name="my_library"
+            action="action_my_library"
+            sequence="10"
+            groups="base.group_user"/>
+   </data>
+</odoo>

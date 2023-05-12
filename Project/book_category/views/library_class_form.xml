@@ -1,0 +1,38 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<odoo>-->
+<!--   <data>-->
+<!--      <record id="library_class_view_form" model="ir.ui.view">-->
+<!--         <field name="name">library.class.form</field>-->
+<!--         <field name="model">library.class</field>-->
+<!--         <field name="arch" type="xml">-->
+<!--            <form>-->
+<!--               <sheet>-->
+<!--                  <group>-->
+<!--                     <button name="get_all_library" type="object" string="Log All Students" />-->
+<!--                  </group>-->
+<!--               </sheet>-->
+<!--            </form>-->
+<!--         </field>-->
+<!--      </record>-->
+
+<!--      <record id="library_class_view_tree" model="ir.ui.view">-->
+<!--         <field name="name">library.class.tree</field>-->
+<!--         <field name="model">library.class</field>-->
+<!--         <field name="arch" type="xml">-->
+<!--            <tree>-->
+<!--&lt;!&ndash;               <field name="state" />&ndash;&gt;-->
+<!--            </tree>-->
+<!--         </field>-->
+<!--      </record>-->
+
+<!--      <record id="library_class_action" model="ir.actions.act_window">-->
+<!--         <field name="name">Library Class</field>-->
+<!--         <field name="res_model">library.class</field>-->
+<!--         <field name="view_mode">tree,form</field>-->
+<!--      </record>-->
+
+<!--      <menuitem name="Library Class" id="library_class_menu_root" />-->
+
+<!--      <menuitem id="library_class_menu" action="library_class_action" parent="library_class_menu_root" name="Library Class" sequence="50" />-->
+<!--   </data>-->
+<!--</odoo>-->

@@ -1,0 +1,40 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<odoo>-->
+<!--   <data>-->
+<!--      <record id="my_library_view_form" model="ir.ui.view">-->
+<!--         <field name="name">my.library.form</field>-->
+<!--         <field name="model">my.library</field>-->
+<!--         <field name="arch" type="xml">-->
+<!--            <form>-->
+<!--               <sheet>-->
+<!--                  <group>-->
+<!--&lt;!&ndash;                     <field name="name" />&ndash;&gt;-->
+<!--                     <field name="state" />-->
+<!--                  </group>-->
+<!--               </sheet>-->
+<!--            </form>-->
+<!--         </field>-->
+<!--      </record>-->
+
+<!--      <record id="my_library_view_tree" model="ir.ui.view">-->
+<!--         <field name="name">my.library.tree</field>-->
+<!--         <field name="model">my.library</field>-->
+<!--         <field name="arch" type="xml">-->
+<!--            <tree>-->
+<!--&lt;!&ndash;               <field name="name" />&ndash;&gt;-->
+<!--               <field name="state" />-->
+<!--            </tree>-->
+<!--         </field>-->
+<!--      </record>-->
+
+<!--      <record id="my_library_action" model="ir.actions.act_window">-->
+<!--         <field name="name">My Library</field>-->
+<!--         <field name="res_model">my.library</field>-->
+<!--         <field name="view_mode">tree,form</field>-->
+<!--      </record>-->
+
+<!--      <menuitem name="My Library" id="my_library_menu_root" />-->
+
+<!--      <menuitem id="my_library_menu" action="my_library_action" parent="my_library_menu_root" name="My Library" sequence="50" />-->
+<!--   </data>-->
+<!--</odoo>-->
